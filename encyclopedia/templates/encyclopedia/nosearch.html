@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    not found
+{% endblock %}
+
+{% block body %}
+    
+    {% if search %}
+        <h2>Nothing related to "{{ value }}" is found.</h2>
+    
+    {% endif %}
+    
+
+{% endblock %}
